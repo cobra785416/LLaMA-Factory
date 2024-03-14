@@ -24,11 +24,18 @@
     "file_name": "eval_EntityRecogition.json",
     "file_sha1": ""
   },
-  "evalTR": {
+  "baseTR": {
+    "file_name": "base_TextRetrieval.json",
+    "file_sha1": ""
+  },
+  "techTR": {
+    "file_name": "tech_TextRetrieval.json",
+    "file_sha1": ""
+  }, 
+ "evalTR": {
     "file_name": "eval_TextRetrieval.json",
     "file_sha1": ""
   },
-
   "baseExpert": {
     "file_name": "base_ExpertDialogue.json",
     "file_sha1": "",
@@ -128,5 +135,5 @@
       "response": "output",
       "history": "history"
     }
-  },
+  }
 }
